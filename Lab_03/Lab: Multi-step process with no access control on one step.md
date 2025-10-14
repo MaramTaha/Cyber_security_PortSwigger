@@ -1,12 +1,12 @@
 # Lab: Multi-step process with no access control on one step 
 ---
-# Objective 
+### Objective 
 * The vulnerability is that the website makes sure that only admin can change users roles but in the Confirmation step it doesn't check who are making this change .
 
-# Solution 
+### Solution 
 * make an upgrade request as an admin and send this request to repeater to make changes using this request .
 * login in as a user and copy user session cookies and paste it in the admin request u have send to repeater and change user name .
-### Steps
+#### Steps
 1. login as admin using admin credentials `administrator:admin`
 1. Open burpsuite & interception
 1. upgrade `Carlos` Role 

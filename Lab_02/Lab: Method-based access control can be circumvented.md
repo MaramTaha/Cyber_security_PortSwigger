@@ -1,8 +1,8 @@
 # Lab: Method-based access control can be circumvented
-## Objective 
+### Objective 
 * The vulnerability here is that the server decide who is authorized to make changes according to the http method if it is `GET` you can make changes .
 ---
-## solution 
+### solution 
 * change the method from `POST` to `GET` in admin request and make your changes on the admin request.
 #### Steps 
 1. login as admin using admin credentials `administrator:admin`
